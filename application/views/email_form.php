@@ -13,7 +13,7 @@
         <?php echo "email is sent" ?>
         <h2>Email succesfully delivered</h2>
 
-        <?php echo form_open('/Email_controller/send_email'); ?>
+        <?php echo form_open('/Email_Controller/send_mail'); ?>
         <input type="email" name="email" required>
         <input type="submit" value="SEND MAIL">
         <?php echo form_close() ?>
