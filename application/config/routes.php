@@ -75,3 +75,14 @@ $route['cachecontroller'] = 'Cache1_controller';
 $route['cachecontroller/delete'] = 'Cache1_controller/delete_file_cache';
 
 $route['example'] = 'Example';
+
+$route['redirect']='Redirect_controller';
+$route['redirect/github']='Redirect_controller/github';
+
+$route['upload']='Upload';
+// $route['upload/do_upload']='Upload';
+
+
+$route['email']='Email_Controller';
+
+
